@@ -4,18 +4,18 @@
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <title>Cashel Street Takeways | Fish &amp; Chips, Linwood Christchurch</title>
-<meta name="description" content="Cashel Street Takeways — fish and chips, burgers, seafood baskets and homemade rolls at 341 Cashel Street, Linwood, Christchurch. Cooked to order. Ring 03 261 9333.">
+<meta name="description" content="Cashel Street Takeways: fish and chips, burgers, seafood baskets and homemade rolls at 341 Cashel Street, Linwood, Christchurch. Cooked to order. Ring 03 261 9333.">
 <meta name="theme-color" content="#17120E">
 <link rel="canonical" href="https://cashel-street-takeways-demo.vercel.app/">
 
 <meta property="og:type" content="website">
 <meta property="og:title" content="Cashel Street Takeways | Fish &amp; Chips, Linwood Christchurch">
 <meta property="og:description" content="Fish filleted in the shop, chips out of clean oil, wrapped hot. 341 Cashel Street, Linwood. Ring 03 261 9333.">
-<meta property="og:image" content="img/real-feed.jpg">
+<meta property="og:image" content="https://cashel-street-takeways-demo.vercel.app/img/real-feed.jpg">
 <meta name="twitter:card" content="summary_large_image">
 
 <link rel="icon" href="favicon.svg" type="image/svg+xml">
-<link rel="apple-touch-icon" href="img/real-feed.jpg">
+<link rel="apple-touch-icon" href="https://cashel-street-takeways-demo.vercel.app/img/real-feed.jpg">
 
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -36,7 +36,9 @@
     "postalCode": "8011",
     "addressCountry": "NZ"
   },
-  "aggregateRating": { "@type": "AggregateRating", "ratingValue": "4.5", "reviewCount": "253" }
+  "url": "https://cashel-street-takeways-demo.vercel.app/",
+  "priceRange": "$",
+  "openingHours": ["Tu-Sa 12:00-14:30", "Tu-Sa 16:00-20:30", "Su 15:00-20:30"]
 }
 </script>
 </head>
@@ -55,7 +57,6 @@
 <header class="nav">
   <div class="wrap">
     <a class="brand" href="index.html" aria-label="Cashel Street Takeways home">
-      <span class="brand-mark" aria-hidden="true">C</span>
       <span class="brand-name">Cashel Street Takeways<small>341 Cashel St · Linwood</small></span>
     </a>
 
@@ -105,7 +106,7 @@
     <div class="hero-inner">
       <p class="eyebrow">341 Cashel Street · Linwood</p>
       <h1>Fish and chips done the <em>old way</em>, on Cashel Street.</h1>
-      <p class="hero-sub">Fish filleted in the shop. Chips out of clean oil. Everything cooked when you order it, wrapped hot and handed over the counter — no heat lamp, no sitting around.</p>
+      <p class="hero-sub">Fish filleted in the shop. Chips out of clean oil. Everything cooked when you order it, wrapped hot and handed over the counter, no heat lamp and no sitting around.</p>
 
       <div class="hero-cta">
         <a class="btn btn-primary" href="tel:032619333">
@@ -122,58 +123,25 @@
         </a>
       </div>
 
-      <div class="hero-badge">
-        <span class="stars" aria-hidden="true">
+      <a class="hero-review" href="#reviews">
+        <span class="stars" aria-label="Five star Google review">
           <svg viewBox="0 0 24 24" fill="currentColor"><path d="M12 2l3.09 6.26L22 9.27l-5 4.87 1.18 6.88L12 17.77l-6.18 3.25L7 14.14 2 9.27l6.91-1.01L12 2z"/></svg>
           <svg viewBox="0 0 24 24" fill="currentColor"><path d="M12 2l3.09 6.26L22 9.27l-5 4.87 1.18 6.88L12 17.77l-6.18 3.25L7 14.14 2 9.27l6.91-1.01L12 2z"/></svg>
           <svg viewBox="0 0 24 24" fill="currentColor"><path d="M12 2l3.09 6.26L22 9.27l-5 4.87 1.18 6.88L12 17.77l-6.18 3.25L7 14.14 2 9.27l6.91-1.01L12 2z"/></svg>
           <svg viewBox="0 0 24 24" fill="currentColor"><path d="M12 2l3.09 6.26L22 9.27l-5 4.87 1.18 6.88L12 17.77l-6.18 3.25L7 14.14 2 9.27l6.91-1.01L12 2z"/></svg>
-          <svg viewBox="0 0 24 24" fill="currentColor"><path d="M12 17.77V2l3.09 6.26L22 9.27l-5 4.87 1.18 6.88L12 17.77z"/></svg>
+          <svg viewBox="0 0 24 24" fill="currentColor"><path d="M12 2l3.09 6.26L22 9.27l-5 4.87 1.18 6.88L12 17.77l-6.18 3.25L7 14.14 2 9.27l6.91-1.01L12 2z"/></svg>
         </span>
-        <b>4.5</b> <span>from 250+ Google reviews</span>
-      </div>
+        <p>“That was the best feed of fish and chips I've ever had, and I don't make that claim lightly.”</p>
+        <span class="hero-review-by">
+          <svg viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M21.35 11.1h-9.17v2.96h5.27c-.23 1.35-1.63 3.96-5.27 3.96-3.17 0-5.76-2.62-5.76-5.86s2.59-5.86 5.76-5.86c1.81 0 3.02.77 3.71 1.43l2.53-2.44C16.8 3.72 14.72 2.8 12.18 2.8 6.98 2.8 2.77 7.01 2.77 12.2s4.21 9.4 9.41 9.4c5.43 0 9.03-3.82 9.03-9.2 0-.62-.07-1.09-.16-1.3z"/></svg>
+          Azza M on Google
+        </span>
+      </a>
     </div>
   </div>
 
   <div class="scroll-hint" aria-hidden="true">
     <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M12 5v14M19 12l-7 7-7-7"/></svg>
-  </div>
-</section>
-
-<!-- TRUST STRIP -->
-<section class="trust" aria-label="Why locals come back">
-  <div class="wrap">
-    <div class="trust-grid">
-      <div class="trust-item rv">
-        <span class="trust-ico" aria-hidden="true">
-          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M8.5 14.5A2.5 2.5 0 0 0 11 12c0-1.38-.5-2-1-3-1.072-2.143-.224-4.054 2-6 .5 2.5 2 4.9 4 6.5 2 1.6 3 3.5 3 5.5a7 7 0 1 1-14 0c0-1.153.433-2.294 1-3a2.5 2.5 0 0 0 2.5 2.5z"/></svg>
-        </span>
-        <div>
-          <h3>Cooked when you order it</h3>
-          <p>Nothing sits under a heat lamp waiting for someone to want it. Order goes on, order comes out.</p>
-        </div>
-      </div>
-
-      <div class="trust-item rv">
-        <span class="trust-ico" aria-hidden="true">
-          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M12 2.7s6 5.4 6 10.3a6 6 0 0 1-12 0C6 8.1 12 2.7 12 2.7z"/></svg>
-        </span>
-        <div>
-          <h3>Clean oil, filleted in the shop</h3>
-          <p>The fish is cut here, not bought in pre-portioned — and the oil gets changed, so your feed comes out dry, not greasy.</p>
-        </div>
-      </div>
-
-      <div class="trust-item rv">
-        <span class="trust-ico" aria-hidden="true">
-          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="9"/><path d="M12 7v5l3.5 2"/></svg>
-        </span>
-        <div>
-          <h3>Ring ahead, skip the wait</h3>
-          <p>Phone the order through on your way home and it's on the counter wrapped when you walk in.</p>
-        </div>
-      </div>
-    </div>
   </div>
 </section>
 
@@ -183,71 +151,59 @@
     <div class="sec-head rv">
       <p class="eyebrow">What's in the fryer</p>
       <h2>The board at Cashel Street</h2>
-      <p>Straightforward takeaway food, made properly. Fish and chips is the reason most people come — the rest is why they come back.</p>
+      <p>Straightforward takeaway food, made properly. Fish and chips is the reason most people come, and the rest is why they come back.</p>
     </div>
 
     <div class="cards">
       <article class="card rv">
-        <div class="card-img">
-          <span class="card-tag">The main event</span>
-          <img src="img/real-feed.jpg" alt="A Cashel Street feed: battered fish, chips, onion rings, a hot dog and popcorn chicken on paper" width="800" height="1200" loading="lazy" decoding="async">
-        </div>
+        <div class="card-img"><img src="img/real-feed.jpg" alt="A Cashel Street feed: battered fish, chips, onion rings, a hot dog and popcorn chicken on paper" width="800" height="1200" loading="lazy" decoding="async"></div>
         <div class="card-body">
+          <div class="card-label"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.9" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M2 12s3.5-5 8-5 8 5 8 5-3.5 5-8 5-8-5-8-5z"/><circle cx="8" cy="11" r="1"/><path d="M18 12l4-3v6l-4-3z"/></svg>The main event</div>
           <h3>Fish &amp; chips</h3>
           <p>Fresh fillets cut in the shop and dropped in a light batter, with a proper scoop of chips beside them. The order people drive across town for.</p>
         </div>
       </article>
 
       <article class="card rv">
-        <div class="card-img">
-          <span class="card-tag">Ask for garlic</span>
-          <img src="img/m-chips.jpg" alt="A tray of hot golden chips fresh out of the fryer" width="1200" height="692" loading="lazy" decoding="async">
-        </div>
+        <div class="card-img"><img src="img/m-chips.jpg" alt="A tray of hot golden chips fresh out of the fryer" width="1200" height="692" loading="lazy" decoding="async"></div>
         <div class="card-body">
+          <div class="card-label"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.9" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M6 8h12l-1 12H7L6 8z"/><path d="M9 8V4M12 8V3M15 8V4"/></svg>Ask for garlic</div>
           <h3>Hot chips</h3>
           <p>Crisp on the outside, fluffy through the middle. Scoops, shoestring, or the garlic chips that regulars order without looking at the board.</p>
         </div>
       </article>
 
       <article class="card rv">
-        <div class="card-img">
-          <span class="card-tag">Made to order</span>
-          <img src="img/real-burger.jpg" alt="A Cashel Street burger with beef patty, cheese, lettuce and sauce" width="1200" height="997" loading="lazy" decoding="async">
-        </div>
+        <div class="card-img"><img src="img/real-burger.jpg" alt="A Cashel Street burger with beef patty, cheese, lettuce and sauce" width="1200" height="997" loading="lazy" decoding="async"></div>
         <div class="card-body">
+          <div class="card-label"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.9" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M4 15h16"/><path d="M3 11a9 9 0 0 1 18 0z"/><path d="M5 19h14"/></svg>Made to order</div>
           <h3>Burgers</h3>
-          <p>Cheeseburgers, bacon and egg, chicken — built when you order, not pulled off a warmer. Add chips and you've got dinner sorted.</p>
+          <p>Cheeseburgers, bacon and egg, chicken, all built when you order rather than pulled off a warmer. Add chips and you've got dinner sorted.</p>
         </div>
       </article>
 
       <article class="card rv">
-        <div class="card-img">
-          <span class="card-tag">Local favourite</span>
-          <img src="img/m-chicken.jpg" alt="Battered chicken pieces served with chips, tartare sauce and a lemon wedge" width="1200" height="675" loading="lazy" decoding="async">
-        </div>
+        <div class="card-img"><img src="img/m-chicken.jpg" alt="Battered chicken pieces served with chips, tartare sauce and a lemon wedge" width="1200" height="675" loading="lazy" decoding="async"></div>
         <div class="card-body">
+          <div class="card-label"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.9" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M13 3c3 1 5 3.5 5 6.5S15.5 15 13 16l-3 5-2-4-4-1 4-3c-1-2 0-5 2-6.5"/></svg>Local favourite</div>
           <h3>Chicken nibbles &amp; battered bits</h3>
           <p>Battered chicken pieces done the way the regulars ask for them. A few people come in for these and nothing else.</p>
         </div>
       </article>
 
       <article class="card rv">
-        <div class="card-img">
-          <span class="card-tag">Feeds two</span>
-          <img src="img/real-rings.jpg" alt="Three golden crumbed onion rings from the fryer" width="1200" height="900" loading="lazy" decoding="async">
-        </div>
+        <div class="card-img"><img src="img/m-seafood.jpg" alt="A loaded seafood basket with battered fish, scallops and chips" width="1200" height="900" loading="lazy" decoding="async"></div>
         <div class="card-body">
+          <div class="card-label"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.9" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M3 10h18l-2 9H5L3 10z"/><path d="M7 10V7a5 5 0 0 1 10 0v3"/></svg>Feeds two</div>
           <h3>Seafood basket</h3>
           <p>A loaded basket that'll comfortably do two people. Good call when you can't decide, or when there's someone to share with.</p>
         </div>
       </article>
 
       <article class="card rv">
-        <div class="card-img">
-          <span class="card-tag">Handmade here</span>
-          <img src="img/m-springrolls.jpg" alt="Golden fried spring rolls resting in a serving pan" width="1200" height="799" loading="lazy" decoding="async">
-        </div>
+        <div class="card-img"><img src="img/m-springrolls.jpg" alt="Golden fried spring rolls resting in a serving pan" width="1200" height="799" loading="lazy" decoding="async"></div>
         <div class="card-body">
+          <div class="card-label"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.9" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M4 7h16v3a6 6 0 0 1-6 6h-4a6 6 0 0 1-6-6V7z"/><path d="M8 16v4M16 16v4"/></svg>Handmade here</div>
           <h3>Spring rolls, curry rolls &amp; savouries</h3>
           <p>Spring rolls and curry rolls made in the shop, plus hot dogs, onion sausages and the usual line-up of sides.</p>
         </div>
@@ -277,7 +233,7 @@
       <div class="rv">
         <p class="eyebrow">Our shop</p>
         <h2>A proper Christchurch chippy, still doing it by hand</h2>
-        <p>Cashel Street Takeways sits on the Linwood end of Cashel Street, a few minutes out of the central city. It's a takeaway shop, not a restaurant — you ring, you walk in, you get a hot parcel and you're away.</p>
+        <p>Cashel Street Takeways sits on the Linwood end of Cashel Street, a few minutes out of the central city. It's a takeaway shop rather than a restaurant: you ring, you walk in, you get a hot parcel and you're away.</p>
         <p>What's kept people coming is boring and unglamorous: the fish gets filleted here, the oil gets looked after, and nothing goes in the fryer until someone's ordered it. That's the whole trick.</p>
 
         <ul class="checklist">
@@ -345,19 +301,7 @@
     <div class="sec-head rv">
       <p class="eyebrow">Real Google reviews</p>
       <h2>What Christchurch says about us</h2>
-      <p>These are actual reviews left on our Google listing — words and names as they were written.</p>
-    </div>
-
-    <div class="rating-summary rv">
-      <div class="rating-score">4.5</div>
-      <div class="rating-meta">
-        <b>Rated by 250+ locals</b>
-        Google reviews · Cashel Street Takeways
-      </div>
-      <a class="btn btn-ghost" href="https://www.google.com/maps/search/?api=1&amp;query=Cashel%20Street%20Takeaways%20341%20Cashel%20St%20Linwood%20Christchurch" target="_blank" rel="noopener">
-        <svg viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M21.35 11.1h-9.17v2.96h5.27c-.23 1.35-1.63 3.96-5.27 3.96-3.17 0-5.76-2.62-5.76-5.86s2.59-5.86 5.76-5.86c1.81 0 3.02.77 3.71 1.43l2.53-2.44C16.8 3.72 14.72 2.8 12.18 2.8 6.98 2.8 2.77 7.01 2.77 12.2s4.21 9.4 9.41 9.4c5.43 0 9.03-3.82 9.03-9.2 0-.62-.07-1.09-.16-1.3z"/></svg>
-        See all our Google reviews
-      </a>
+      <p>These are actual reviews left on our Google listing, words and names as they were written.</p>
     </div>
 
     <div class="review-grid">
@@ -457,6 +401,13 @@
         </div>
       </article>
     </div>
+
+    <div class="stack-btns mt-32 rv">
+      <a class="btn btn-ghost" href="https://www.google.com/maps/search/?api=1&amp;query=Cashel%20Street%20Takeaways%20341%20Cashel%20St%20Linwood%20Christchurch" target="_blank" rel="noopener">
+        <svg viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M21.35 11.1h-9.17v2.96h5.27c-.23 1.35-1.63 3.96-5.27 3.96-3.17 0-5.76-2.62-5.76-5.86s2.59-5.86 5.76-5.86c1.81 0 3.02.77 3.71 1.43l2.53-2.44C16.8 3.72 14.72 2.8 12.18 2.8 6.98 2.8 2.77 7.01 2.77 12.2s4.21 9.4 9.41 9.4c5.43 0 9.03-3.82 9.03-9.2 0-.62-.07-1.09-.16-1.3z"/></svg>
+        Read our reviews on Google
+      </a>
+    </div>
   </div>
 </section>
 
@@ -484,54 +435,81 @@
 <!-- CONTACT -->
 <section class="band-dark" id="findus">
   <div class="wrap">
-    <div class="contact-grid">
-      <div class="rv">
-        <p class="eyebrow on-dark">Find us</p>
-        <h2>341 Cashel Street, Linwood</h2>
-        <p style="color:#A99C90;max-width:48ch;">Five minutes east of the central city, on the Linwood stretch of Cashel Street. Parking out front.</p>
+    <div class="sec-head rv">
+      <p class="eyebrow on-dark">Find us</p>
+      <h2>341 Cashel Street, Linwood</h2>
+      <p>Five minutes east of the central city, on the Linwood stretch of Cashel Street. Parking out front.</p>
+    </div>
 
-        <div class="info-row">
-          <span class="info-ico" aria-hidden="true">
-            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0 1 18 0z"/><circle cx="12" cy="10" r="3"/></svg>
-          </span>
-          <div>
-            <div class="lab">Address</div>
-            <a class="val" href="https://www.google.com/maps/search/?api=1&amp;query=341%20Cashel%20Street%2C%20Linwood%2C%20Christchurch%208011" target="_blank" rel="noopener">341 Cashel Street, Linwood, Christchurch 8011</a>
-          </div>
+    <div class="contact-card rv">
+      <div class="contact-map">
+        <iframe
+          title="Map showing Cashel Street Takeways at 341 Cashel Street, Linwood, Christchurch"
+          src="https://www.google.com/maps?q=341%20Cashel%20Street%2C%20Linwood%2C%20Christchurch%208011%2C%20New%20Zealand&amp;output=embed"
+          loading="lazy"
+          referrerpolicy="no-referrer-when-downgrade"
+          allowfullscreen></iframe>
+      </div>
+
+      <div class="contact-body">
+        <h3>Get your order on</h3>
+        <p class="contact-lede">No forms, no apps. Ring the shop and it'll be wrapped and waiting, or send us an email if it's a bigger order for a group.</p>
+
+        <div class="contact-btns">
+          <a class="btn btn-primary btn-lg" href="tel:032619333">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72c.13.96.36 1.9.7 2.81a2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45c.9.34 1.85.57 2.81.7A2 2 0 0 1 22 16.92z"/></svg>
+            Call for an order · 03 261 9333
+          </a>
+          <a class="btn btn-outline-light btn-lg" href="#" data-gmail data-user="alfeilimited" data-domain="outlook.co.nz" data-su="Order%20enquiry%20-%20Cashel%20Street%20Takeways" data-body="Hi%20Albert%2C%0A%0AI%27d%20like%20to%20ask%20about%3A%0A%0A-%20What%20I%27m%20after%3A%0A-%20Day%20and%20time%3A%0A-%20How%20many%20people%3A%0A%0AThanks%2C%0A">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><rect x="2" y="4" width="20" height="16" rx="2"/><path d="m2 7 10 6 10-6"/></svg>
+            Email us about a big order
+          </a>
         </div>
 
-        <div class="info-row">
-          <span class="info-ico" aria-hidden="true">
-            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72c.13.96.36 1.9.7 2.81a2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45c.9.34 1.85.57 2.81.7A2 2 0 0 1 22 16.92z"/></svg>
-          </span>
-          <div>
-            <div class="lab">Phone orders</div>
-            <a class="val" href="tel:032619333">03 261 9333</a>
+        <div class="contact-details">
+          <div class="info-row">
+            <span class="info-ico" aria-hidden="true">
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72c.13.96.36 1.9.7 2.81a2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45c.9.34 1.85.57 2.81.7A2 2 0 0 1 22 16.92z"/></svg>
+            </span>
+            <div>
+              <div class="lab">Phone orders</div>
+              <a class="val" href="tel:032619333">03 261 9333</a>
+            </div>
           </div>
-        </div>
 
-        <div class="info-row">
-          <span class="info-ico" aria-hidden="true">
-            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><rect x="2" y="4" width="20" height="16" rx="2"/><path d="m2 7 10 6 10-6"/></svg>
-          </span>
-          <div>
-            <div class="lab">Email</div>
-            <a class="val" href="#" data-gmail data-user="alfeilimited" data-domain="outlook.co.nz" data-su="Enquiry%20for%20Cashel%20Street%20Takeways" data-body="Hi%20Albert%2C%0A%0A">Email the shop</a>
+          <div class="info-row">
+            <span class="info-ico" aria-hidden="true">
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><rect x="2" y="4" width="20" height="16" rx="2"/><path d="m2 7 10 6 10-6"/></svg>
+            </span>
+            <div>
+              <div class="lab">Email</div>
+              <a class="val" href="#" data-gmail data-showaddr data-user="alfeilimited" data-domain="outlook.co.nz" data-su="Enquiry%20for%20Cashel%20Street%20Takeways" data-body="Hi%20Albert%2C%0A%0A">Email the shop</a>
+            </div>
           </div>
-        </div>
 
-        <div class="info-row">
-          <span class="info-ico" aria-hidden="true">
-            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="9"/><path d="M12 7v5l3.5 2"/></svg>
-          </span>
-          <div style="flex:1;min-width:0;">
-            <div class="lab">Opening hours</div>
-            <ul class="hours">
-              <li><b>Tue – Sat</b><span>12:00pm – 2:30pm &amp; 4:00pm – 8:30pm</span></li>
-              <li><b>Sunday</b><span>3:00pm – 8:30pm</span></li>
-              <li class="closed"><b>Monday</b><span>Closed</span></li>
-            </ul>
-            <p style="font-size:13.5px;color:#8C8078;margin-top:10px;">Hours can shift on public holidays — give us a ring if you're unsure.</p>
+          <div class="info-row">
+            <span class="info-ico" aria-hidden="true">
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0 1 18 0z"/><circle cx="12" cy="10" r="3"/></svg>
+            </span>
+            <div>
+              <div class="lab">Address</div>
+              <a class="val" href="https://www.google.com/maps/search/?api=1&amp;query=341%20Cashel%20Street%2C%20Linwood%2C%20Christchurch%208011" target="_blank" rel="noopener">341 Cashel Street, Linwood, Christchurch 8011</a>
+            </div>
+          </div>
+
+          <div class="info-row">
+            <span class="info-ico" aria-hidden="true">
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="9"/><path d="M12 7v5l3.5 2"/></svg>
+            </span>
+            <div style="flex:1;min-width:0;">
+              <div class="lab">Opening hours</div>
+              <ul class="hours">
+                <li><b>Tue &ndash; Sat</b><span>12:00pm &ndash; 2:30pm &amp; 4:00pm &ndash; 8:30pm</span></li>
+                <li><b>Sunday</b><span>3:00pm &ndash; 8:30pm</span></li>
+                <li class="closed"><b>Monday</b><span>Closed</span></li>
+              </ul>
+              <p class="hours-note">Kitchen closes at 8:30pm, so get last orders in a few minutes before. Hours can shift on public holidays, give us a ring if you're unsure.</p>
+            </div>
           </div>
         </div>
 
@@ -548,42 +526,6 @@
           </a>
         </div>
       </div>
-
-      <div class="contact-card rv">
-        <h3>Get your order on</h3>
-        <p>No forms, no apps. Ring the shop and it'll be wrapped and waiting, or send us an email if it's a bigger order for a group.</p>
-
-        <div class="contact-btns">
-          <a class="btn btn-primary btn-lg" href="tel:032619333">
-            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72c.13.96.36 1.9.7 2.81a2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45c.9.34 1.85.57 2.81.7A2 2 0 0 1 22 16.92z"/></svg>
-            Call for an order · 03 261 9333
-          </a>
-          <a class="btn btn-outline-light btn-lg" href="#" data-gmail data-user="alfeilimited" data-domain="outlook.co.nz" data-su="Order%20enquiry%20-%20Cashel%20Street%20Takeways" data-body="Hi%20Albert%2C%0A%0AI%27d%20like%20to%20ask%20about%3A%0A%0A-%20What%20I%27m%20after%3A%0A-%20Day%20and%20time%3A%0A-%20How%20many%20people%3A%0A%0AThanks%2C%0A">
-            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><rect x="2" y="4" width="20" height="16" rx="2"/><path d="m2 7 10 6 10-6"/></svg>
-            Email us about a big order
-          </a>
-        </div>
-
-        <p style="margin-top:22px;font-size:14px;color:#8C8078;">Kitchen closes at 8:30pm — last orders a few minutes before that, please.</p>
-      </div>
-    </div>
-  </div>
-</section>
-
-<!-- MAP -->
-<section class="band-bone" id="map" style="padding-top:0;padding-bottom:76px;margin-top:-1px;">
-  <div class="wrap" style="padding-top:76px;">
-    <div class="sec-head rv" style="margin-bottom:26px;">
-      <p class="eyebrow">On the map</p>
-      <h2>We're on the Linwood end of Cashel Street</h2>
-    </div>
-    <div class="map-wrap rv">
-      <iframe
-        title="Map showing Cashel Street Takeways at 341 Cashel Street, Linwood, Christchurch"
-        src="https://www.google.com/maps?q=341%20Cashel%20Street%2C%20Linwood%2C%20Christchurch%208011%2C%20New%20Zealand&amp;output=embed"
-        loading="lazy"
-        referrerpolicy="no-referrer-when-downgrade"
-        allowfullscreen></iframe>
     </div>
   </div>
 </section>
@@ -594,7 +536,6 @@
     <div class="footer-top">
       <div>
         <a class="brand" href="index.html" style="margin-bottom:16px;">
-          <span class="brand-mark" aria-hidden="true">C</span>
           <span class="brand-name">Cashel Street Takeways<small>Linwood · Christchurch</small></span>
         </a>
         <p>Fish and chips, burgers, seafood baskets and homemade rolls at 341 Cashel Street. Cooked to order, wrapped hot.</p>

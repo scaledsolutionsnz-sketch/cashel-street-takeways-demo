@@ -90,6 +90,7 @@
       '&body=' + (a.getAttribute('data-body') || '');
     a.target = '_blank';
     a.rel = 'noopener';
+    if (a.hasAttribute('data-showaddr')) { a.textContent = to; }
   });
 
   /* ---- Current year ---- */
