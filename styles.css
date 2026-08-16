@@ -618,3 +618,13 @@ body.inner .nav{ background:rgba(251,245,236,.94); -webkit-backdrop-filter:blur(
 .stack-btns{ display:flex; flex-wrap:wrap; gap:12px; }
 .stack-btns .btn{ flex:1 1 220px; }
 @media (min-width:640px){ .stack-btns .btn{ flex:0 1 auto; } }
+
+/* Uber Eats nav button (added) */
+.nav-uber{ display:inline-flex; align-items:center; gap:8px; padding:0 16px; height:42px;
+  border:1.5px solid rgba(255,255,255,.55); border-radius:100px; color:#fff; text-decoration:none;
+  font-weight:600; font-size:.9rem; transition:background .25s, border-color .25s, transform .25s; }
+.nav-uber svg{ width:16px; height:16px; }
+.nav-uber:hover{ background:#fff; color:var(--ink, #14161a); border-color:#fff; transform:translateY(-1px); }
+@media (max-width: 900px){ .nav-uber{ display:none; } }
+.nav.solid .nav-uber{ border-color:rgba(20,22,26,.34); color:var(--ink); }
+.nav.solid .nav-uber:hover{ background:var(--ink); color:#fff; border-color:var(--ink); }
