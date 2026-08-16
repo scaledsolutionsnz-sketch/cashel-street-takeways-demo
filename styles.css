@@ -184,13 +184,15 @@ section{ padding:76px 0; position:relative; }
 
 .brand{ display:flex; align-items:center; gap:10px; text-decoration:none; min-width:0; }
 .brand-name{
-  font-family:var(--f-display); font-size:20px; font-weight:700; color:#FFF8EF;
+  font-family:var(--f-display); font-size:20px; font-weight:700; color:var(--ink);
   letter-spacing:-.02em; line-height:1.05; white-space:nowrap;
   overflow:hidden; text-overflow:ellipsis;
   transition:color .3s ease;
 }
 .brand-name small{ display:block; font-family:var(--f-body); font-size:11px; font-weight:700;
-  letter-spacing:.14em; text-transform:uppercase; color:rgba(255,248,239,.62); transition:color .3s ease; }
+  letter-spacing:.14em; text-transform:uppercase; color:var(--muted); transition:color .3s ease; }
+.nav:not(.solid) .brand-name{ color:#FFF8EF; }
+.nav:not(.solid) .brand-name small{ color:rgba(255,248,239,.72); }
 @media (max-width:430px){
   .brand{ gap:8px; }
   .brand-name{ font-size:15.5px; }
@@ -315,12 +317,12 @@ body.inner .brand-name small{ color:var(--muted); }
 .hero-review{
   display:block; max-width:430px; text-decoration:none;
   padding:16px 20px 15px; border-radius:var(--r);
-  background:rgba(255,255,255,.11);
-  border:1px solid rgba(255,255,255,.24);
+  background:rgba(19,14,11,.82);
+  border:1px solid rgba(255,255,255,.22);
   -webkit-backdrop-filter:blur(14px); backdrop-filter:blur(14px);
   transition:background .28s ease, border-color .28s ease, transform .28s ease;
 }
-.hero-review:hover{ background:rgba(255,255,255,.17); border-color:rgba(255,255,255,.4); transform:translateY(-2px); }
+.hero-review:hover{ background:rgba(19,14,11,.88); border-color:rgba(255,255,255,.38); transform:translateY(-2px); }
 .hero-review p{
   color:#FFF8EF; font-size:15px; line-height:1.55; margin:9px 0 10px;
   font-family:var(--f-display); font-style:italic; font-weight:400;
